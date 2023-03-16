@@ -37,7 +37,7 @@ function GuardarLocalStorage(nombre, correo, mensaje) {
 
 function ListarData() {
     let nombreUsu = localStorage.getItem('Nombre')
-    let correoUsu = localStorage.getItem('Coreo')
-    let mensajeUsu = localStorage.getItem('Mnesaje')
+    let correoUsu = localStorage.getItem('Correo')
+    let mensajeUsu = localStorage.getItem('Mensaje')
 }
 
