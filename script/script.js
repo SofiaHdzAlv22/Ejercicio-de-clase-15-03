@@ -8,10 +8,13 @@ function LeerDatos() {
     nombre = document.getElementById('nombre').value
     correo = document.getElementById('correo').value
     mensaje = document.querySelector('textarea').value
+    ValidarData(nombre,correo,mensaje)
 console.log(nombre)
+function ValidarData(nommbre,correo,mensaje)
+GuardarLocalStorage(nombre,correo,mensajes)
 }
 
-function ValidarData(nommbre,correo,mensaje) {
+ {
     if(nombre,length==0 || correo.length==0 || mensaje.length==0){
      Swal.fire({
         title: 'Error',
@@ -22,3 +25,16 @@ function ValidarData(nommbre,correo,mensaje) {
      })
     }
 }
+function GuardarLocalStorage(nombre,correo,mensaje) {
+localStorage.setItem('Nombre',nombre)
+localStorage.setItem('Correo',correo)
+localStorage.setItem('Mensaje',mensaje)
+ListarData() 
+}
+
+function ListarData() {
+    let nombreUsu = localStorage.getItem('Nombre')
+    let correoUsu = localStorage.getItem('Coreo')
+    let mensajeUsu = localStorage.getItem('Mnesaje')
+}
+
