@@ -1,0 +1,64 @@
+# Ejercicio de clase
+### 1.  Consulte 30 etiquetas de html 
+- **Body:** Es el contenido del documento
+- **Head:** Para agregar información del documento
+- **Div:** Es una división dentro del contenido
+- **A:** Para agregar enlaces
+- **Strong:** Para poner el texto en negrita
+- **H1:** Títulos principales dentro del contenido, va desde el más grande al más pequeño
+- **Img:** Es para añadir una imágen 
+- **P:** Es para poner un párrafo 
+- **Ul:** Son las listas desordenadas, son marcadas con viñetas
+- **Ol:** Son las listas ordenadas, son marcadas con números
+- **il:** Es lo que debe ir dentro ya sea de la etiqeuta UL/OL para determinar la lista
+- **Html:** Sirve para poner la estructura base de la página
+- **Hr:** Son para separar y hacer saltos de línea
+- **Span:** Podemos personalizar el estilo de solo una parte del texto
+- **Link:** Se usa para enlazar recursos externos al HTML
+- **Tittle:** Se usa para definir el título de la página
+- **Nav:** Usada para definir el contenido que será la sección de navegación en la página 
+- **Footer:** Usada para definir el pie de la página
+- **Pre:** Usada para pegar un texto manteniendo su formato original 
+- **Cite:** Se usa para indicar el título de una obra
+- **Sub:** Utilizada para representar un subíndice
+- **Sup:** Utilizada para indicar un superíndice
+- **Video:** Se usa para reproducir un video en la pagina web
+- **Audio:** Se usa para cargar un audio en la pagina web
+- **Form:** Es la apertura y cierre de un formulario
+- **Input:** Es el campo de introducción de datos del usuario
+- **Textarea:** Añade un campo para que el usuario pueda introducir texto en lineas que el desarrollador define
+- **Select:** Permite la selección entre un conjunto de opciones
+- **Option:** Permite añadir diferentes opciones a la etiqueta select
+- **Button:** Utilizada para representar un botón en el formulario
+
+### 2. Estilos de CSS
+- **Margin:** son el espacio entre el bloque y el borde de la ventana activa del navegador
+- ****
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
