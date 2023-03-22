@@ -33,32 +33,36 @@
 
 ### 2. Estilos de CSS
 - **Margin:** son el espacio entre el bloque y el borde de la ventana activa del navegador
+- **Font family:** Establece una familia o un tipo de fuente tipográfica
+- **Font style:** Es un estilo normal, cursiva o oblicua
+- **Font variant:** Convierte las minúsculas en mayúsculas pero en tamaño menor
+- **Font weight:** Es el grosor de la tipografía
+- **Font size:** Tamaño o cuerpo de la letra especificado en pixeles (px)
+- **Font indent:** Cantidad de desplazamiento lateral de la primera línea del texto
+- **Font aling:** Alineación del texto
+- **Text decoration:** Aplica efectos de subrayado, tachados, etc
+- **Background image:** Es la imagen de fondo para un elemento 
+- **Background color:** Es el color de fondo para un elemento.
+- **Backgorund repeat:** Es la repetición o no de la imagen dentro del fondo 
+- **Height:** Es la altura de un elemento o una imagen
+- **Width:** Es el ancho de un elemento o una imagen
+- **Border:** Borde de un elemento o una imagen
+- **Display:** modo en que se muestra un elemento o imagen o no mostrarlo nunca. Tiene diversos valores, los más comunes son: mostrar elementos en bloque (block)
+- **Margin:** margen a partir de un elemento hacia afuera expresado en px
+- **Padding:** relleno o espacio interior desde el borde de un elemento hacia dentro. 
+- **Margin top:** margen hacia arriba
+- **Margin right:** margen hacia la derecha
+- **Margin bottom:** Margen hacia abajo
+- **Margin left:** margen hacia la izquierda
+- **Padding top:** relleno desde arriba hacia adentro
+- **Padding right:** relleno desde la derecha hacia adentro
+- **Padding bottom:** relleno desde abajo hacia adentro
+- **Padding left:** relleno desde la izquierda hacia adentro
+- **Vertical aling:** Alienacion vertical del texto
+- **Letter spacing:** espaciado entre caracteres
 - ****
 -
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
+
+# 3. Qué es Display block, inline e inline-block
+- **Block:** Es un elemento que ocupa el ancho máximo disponible, un ejemplo de este son las etiquetas H1, estos encabezados resaltan y son líneas independientes. No están mezcladas con otros elementos. En resumen. hace que el comportamiento del elemento sea como un bloque.
+- **Inline:** 
