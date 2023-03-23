@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,47 +20,53 @@
    </header>
     <main>
         <form action="" id="form">
-            <div id="container">
+            <div id="contenido">
+                
 
                 <div>
                     <label for="">Propietario del vehículo</label> <br>
-                    <input type="text">
+                    <input type="text" id="propietario">
                 </div>
 
                     <div id="modelo">
                         <label for="">Módelo del vehículo</label>
-                        <input type="text">
+                        <input type="text" id="modelo">
                     </div>
 
                         <div id="info">
-                            <label for="">Placa</label>
-                            <input type="text">
-                        
+                              <div>
+                                <label for="">Placa</label> <br>
+                                <input type="text" id="placa">
+                              </div>
 
                             <div>
-                                <label for="">Tipo</label>
-                                <input type="text">
+                                <label for="">Tipo</label> <br>
+                                <input type="text" id="tipo">
                             </div>
                         </div>
 
                         
                         <div id="info2">
-                            <label for="">Fecha de entrada</label> <br>
-                            <input type="date">
-                        </div>
-        
                             <div>
-                                <label for="">Hora de inicio</label>
-                                <input type="time">
+                                <label for="">Fecha de entrada</label> <br>
+                                <input type="date" id="fecha">
                             </div>
         
-                                <div id>
-                                    <label for="">Cantidad de horas</label>
-                                    <input type="number">
-                                    </div>
+                            <div>
+                                <label for="">Hora de inicio</label><br>
+                                <input type="time" id="hora">
+                            </div>
+        
+                            <div >
+                                <label for="">Cantidad de horas</label> <br>
+                                 <input type="number" id="cantidad">
+                            </div>
+                          
                         </div>
-                   
+                        <button type="submit" id="boton">Enviar</button>
         </form>
     </main>
+    <script src="./script/script2.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 </html>
