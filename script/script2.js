@@ -1,25 +1,26 @@
 let propietario, modelo, placa, tipo, fecha, hora, cantidad;
 
-let formulario = document.getElementById('form')
+let formulario = document.getElementById('form2')
 
 formulario, addEventListener('submit', (e) => {
     e.preventDefault()
     LeerDatos()
+    
 })
 
-function LeerDatos() {
+function LeerDatos(propietario, modelo, placa, tipo, fecha, hora, cantidad) {
     propietario = document.getElementById('propietario').value
     modelo = document.getElementById('modelo').value
-    placa = document.querySelector('placa').value
-    tipo = document.querySelector('tipo').value
-    fecha = document.querySelector('fecha').value
-    hora = document.querySelector('hora').value
-    cantidad = document.querySelector('cantidad').value
+    placa = document.getElementById('placa').value
+    tipo = document.getElementById('tipo').value
+    fecha = document.getElementById('fecha').value
+    hora = document.getElementById('hora').value
+    cantidad = document.getElementById('cantidad').value
     
     GuardarLocalStorage(propietario, modelo, placa, tipo, fecha, hora, cantidad)
 }
 
-function ValidarData(propietario, modelo, placa, tipo, fecha, hora, cantidad) {
+function Validardata(propietario, modelo, placa, tipo, fecha, hora, cantidad){
     if (propietario.length == 0 || modelo.length == 0 || tipo.length == 0 || fecha.length == 0 || hora.length == 0 || cantidad == 0 ) {
         Swal.fire({
             title: 'Error',
@@ -29,27 +30,27 @@ function ValidarData(propietario, modelo, placa, tipo, fecha, hora, cantidad) {
             iconColor: 'pink',
         })
     }
-    GuardarLocalStorage(propietario, modelo, placa, tipo, fecha, hora)
+    GuardarLocalStorage(propietario, modelo, placa, tipo, fecha, hora,cantidad)
 }
 
 function GuardarLocalStorage(propietario, modelo, placa, tipo,fecha, hora, cantidad) {
-    localStorage.setItem('Propietario del vehículo', propietario)
-    localStorage.setItem('Modelo del vehículo', modelo)
-    localStorage.setItem('Placa', placa)
-    localStorage.setItem('Tipo', tipo)
-    localStorage.setItem('Fecha', fecha)
-    localStorage.setItem('Hora', fecha)
+    localStorage.setItem('propietario', propietario)
+    localStorage.setItem('modelo', modelo)
+    localStorage.setItem('placa', placa)
+    localStorage.setItem('tipo', tipo)
+    localStorage.setItem('fecha', fecha)
+    localStorage.setItem('hora', fecha)
     localStorage.setItem('Cantidad', cantidad)
     ListarData()
 }
 
 function ListarData() {
-    let propietarioUsu = localStorage.getItem('Propietario del vehículo')
-    let modeloUsu = localStorage.getItem('Modelo del vehículo')
-    let placaUsu = localStorage.getItem('Placa')
-    let tipoeUsu = localStorage.getItem('Tipo')
-    let fechaUsu = localStorage.getItem('Fecha')
-    let horaUsu = localStorage.getItem('Hora')
-    let cantidadUsu = localStorage.getItem('Cantidad')
+    let propietarioUsu = localStorage.getItem('propietario')
+    let modeloUsu = localStorage.getItem('modelo')
+    let placaUsu = localStorage.getItem('placa')
+    let tipoeUsu = localStorage.getItem('tipo')
+    let fechaUsu = localStorage.getItem('fecha')
+    let horaUsu = localStorage.getItem('hora')
+    let cantidadUsu = localStorage.getItem('cantidad')
 
 }

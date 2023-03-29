@@ -1,6 +1,6 @@
 let nombre, correo, mensaje;
 
-let formulario = document.getElementById('form')
+let formulario = document.getElementById('form1')
 formulario, addEventListener('submit', (e) => {
     e.preventDefault()
     LeerDatos()
