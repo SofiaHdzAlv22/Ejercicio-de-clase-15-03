@@ -147,7 +147,10 @@
 - **submit (onsubmit)**: Ocurre cuando el visitante apreta sobre el botón de enviar el formulario. Se ejecuta antes del envío propiamente dicho.
 - **unload (onunload)**: Al abandonar una página, ya sea porque se pulse sobre un enlace que nos lleve a otra página o porque se cierre la ventana del navegador, se ejecuta el evento onunload.
 
+## Selectores compuestos y simples
+**Compuestos:** es el identificador en la hoja de estilos del elemento o elementos del DOM a los que se aplicarán las declaraciones contenidas en la regla de la que forma parte dicho selector.
 
+**Simples**: Un selector simple es aquel que está formado sólo por una única cadena textual, sin ningún combinador.
 
 
 
